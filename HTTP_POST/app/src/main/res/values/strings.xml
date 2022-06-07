@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HTTP_POST</string>
+    <string name="password">password</string>
+    <string name="email">test2@gamil.com</string>
+    <string name="lang_id">3</string>
+    <string name="token">eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwibGFuZ19jb2RlIjoiREEifQ.DxNv9Ch6uNV85HL-XYfvXdOsvzjDk8-jVTEApVrKDpQ</string>
+    <string name="translate_text">This is the official documentation for Python</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdata">
+        <item>第１週</item>
+        <item>第２週</item>
+        <item>第３週</item>
+        <item>第４週</item>
+        <item>第５週</item>
+        <item>第６週</item>
+        <item>第７週</item>
+        <item>第８週</item>
+        <item>第９週</item>
+        <item>第１０週</item>
+        <item>第１１週</item>
+        <item>第１２週</item>
+        <item>第１３週</item>
+        <item>第１４週</item>
+        <item>第１５週</item>
+    </string-array>
+</resources>

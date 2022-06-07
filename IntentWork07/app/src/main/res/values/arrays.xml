@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bgm">
+        <item>明るいクラシック調曲</item>
+        <item>暗いクラシック調曲</item>
+        <item>中世の城</item>
+        <item>堕とされた楽園</item>
+        <item>ピアノ１３</item>
+        <item>シンフォニア第１番</item>
+    </string-array>
+</resources>

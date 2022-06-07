@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:resauto="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <!--ウェブで検索-->
+    <item
+        android:id="@+id/action_google"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="@string/lb_menu_web"
+        resauto:showAsAction="never" />
+
+    <!--GoogleMAP検索-->
+    <item
+        android:id="@+id/action_googlemap"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="@string/lb_menu_googlemap"
+        resauto:showAsAction="never" />
+
+    <!--Yahoo!検索-->
+    <item
+        android:id="@+id/action_yahoo"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="@string/lb_menu_yahoo"
+        resauto:showAsAction="never" />
+
+    <!--Amazon検索-->
+    <item
+        android:id="@+id/action_amazon"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="@string/lb_menu_amazon"
+        resauto:showAsAction="never" />
+
+    <!--楽天市場検索-->
+    <item
+        android:id="@+id/action_rakuten"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="@string/lb_menu_rakuten"
+        resauto:showAsAction="never" />
+
+    <!--ウィキペディア検索-->
+    <item
+        android:id="@+id/action_wiki"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:title="@string/lb_menu_wiki"
+        resauto:showAsAction="never" />
+</menu>
