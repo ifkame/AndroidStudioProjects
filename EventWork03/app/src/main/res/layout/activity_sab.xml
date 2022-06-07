@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SabActivity">
+
+    <ImageView
+        android:id="@+id/imageView_s1"
+        android:layout_width="284dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/piano_calor" />
+
+    <ImageView
+        android:id="@+id/imageView_s2"
+        android:layout_width="282dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246"
+        app:srcCompat="@drawable/piano_calor" />
+
+    <Button
+        android:id="@+id/button_s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="戻る"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView_s1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="曲の停止中"
+        android:textAlignment="center"
+        android:textColor="?attr/colorError"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_s2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_s1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView_s2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ボタンを選択して、オーケストラを楽しもう"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_s2" />
+
+    <TextView
+        android:id="@+id/textView_s3"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:text="(関西内の)オーケストラのコンサート情報はこちらからどうぞ↓"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="96dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_s2">
+
+        <Button
+            android:id="@+id/button_s2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="クラシック/暗め"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_s3"
+            android:layout_width="wrap_content"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:text="クラシック/明るめ"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_s4"
+            android:layout_width="wrap_content"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:text="中世の城"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="97dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button_s5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="滅びた楽園"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_s6"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            android:text="ピアノ13/アレンジ"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_s7"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_weight="1"
+            android:text="シンフォニア第1番"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_s4"
+        android:layout_width="0dp"
+        android:layout_height="98dp"
+        android:autoLink="web"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_s3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="78dp"
+        android:layout_height="23dp"
+        android:text="©魔王魂"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_s2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView_s2"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
