@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:resauto="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".M_00_01">
+
+    <item
+        android:id="@+id/action_osaka"
+        android:title="大阪" />
+    <item
+        android:id="@+id/action_tokyo"
+        android:title="東京" />
+    <item
+        android:id="@+id/action_nagoya"
+        android:title="名古屋" />
+    <item
+        android:id="@+id/action_my_position"
+        android:title="現在地" />
+</menu>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MySchedule06</string>
+    <string name="Save">保存</string>
+    <string name="Cancel">終了</string>
+    <string name="SaveTitle">保存確認</string>
+    <string name="FinishTitle">終了確認</string>
+    <string name="DialogMsg1">メッセージを保存しますか？</string>
+    <string name="DialogMsg2">終了してよろしいですか？</string>
+    <string name="Yes">はい</string>
+    <string name="No">いいえ</string>
+    <string name="YesMsg">「はい」が押されました</string>
+    <string name="NoMsg">「いいえ」が押されました</string>
+</resources>
